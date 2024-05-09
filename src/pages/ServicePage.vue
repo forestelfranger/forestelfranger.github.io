@@ -15,7 +15,7 @@
           >
             {{ service.name }}
           </h1>
-          <p>{{ service.fullDescription }}</p>
+          <div v-html="service.fullDescription"></div>
         </div>
 
         <div class="col-12">
