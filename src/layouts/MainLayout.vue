@@ -2,19 +2,15 @@
   <q-layout view="lHh Lpr lFf">
     <div :class="{ 'slide-up': !visible }" class="slide fit">
       <video poster="https://cdn.quasar.dev/img/polina.jpg" autoplay loop muted>
-        <!-- <source
-            type="video/webm"
-            src="https://cdn.quasar.dev/img/polina.webm"
-          /> -->
         <source
           type="video/mp4"
-          src="https://assets.codepen.io/6093409/river.mp4"
+          src="@/assets/main.mp4"
         />
       </video>
       <div class="fit absolute-top-left column justify-center items-center">
         <img src="@/assets/logo-white.svg" alt="" style="max-width: 250px" />
         <h1
-          class="text-h2 text-white second-font text-center text-weight-regular"
+          class="text-h2 text-white  text-center text-weight-regular"
         >
           Выполнение строительных работ <br />
           люой сложности
@@ -34,7 +30,7 @@
     >
       <q-toolbar class="q-py-md">
         <q-toolbar-title class="col-auto logo">
-          <router-link to="/" class="second-font">
+          <router-link to="/" class="">
             <img
               v-if="rightDrawerOpen"
               src="@/assets/logo-white.svg"
@@ -104,7 +100,7 @@
         </q-item>
       </q-list>
       <div
-        class="row q-gutter-lg justify-center text-accent q-pa-xl second-font"
+        class="row q-gutter-lg justify-center text-accent q-pa-xl "
       >
         <div class="col-12 text-center">
           <a href="tel:+79283332390" class="link">+7(928)333-23-90</a>

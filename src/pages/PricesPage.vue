@@ -1,6 +1,6 @@
 <template>
   <div class="q-py-lg wrapper">
-    <h1 class="text-h6 q-my-none second-font">ПРАЙС</h1>
+    <h1 class="text-h6 q-my-none ">ПРАЙС</h1>
 
     <prices-table :rows="rows" />
   </div>

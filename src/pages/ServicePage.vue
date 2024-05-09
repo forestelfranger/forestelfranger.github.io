@@ -11,7 +11,7 @@
         </div>
         <div class="col-12 col-md-6 text-grey">
           <h1
-            class="text-h6 text-weight-bold q-mt-none second-font text-uppercase"
+            class="text-h6 text-weight-bold q-mt-none  text-uppercase"
           >
             {{ service.name }}
           </h1>
@@ -20,7 +20,7 @@
 
         <div class="col-12">
           <h2
-            class="text-subtitle1 q-mt-none q-mb-lg second-font text-uppercase"
+            class="text-subtitle1 q-mt-none q-mb-lg  text-uppercase"
           >
             ФОТО
           </h2>

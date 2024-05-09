@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper q-py-lg">
-    <h1 class="text-h6 q-my-none second-font">УСЛУГИ</h1>
+    <h1 class="text-h6 q-my-none ">УСЛУГИ</h1>
 
     <div class="row q-py-lg">
       <div class="col">

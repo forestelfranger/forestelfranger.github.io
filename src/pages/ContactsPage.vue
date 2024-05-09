@@ -1,10 +1,10 @@
 <template>
   <div class="fit" style="min-height: inherit">
     <div class="wrapper q-py-lg">
-      <h1 class="text-h6 q-my-none second-font">КОНТАКТЫ</h1>
+      <h1 class="text-h6 q-my-none ">КОНТАКТЫ</h1>
 
       <div
-        class="fit row q-gutter-lg justify-center items-center q-pa-xl second-font text-body1 text-weight-regular"
+        class="fit row q-gutter-lg justify-center items-center q-pa-xl  text-body1 text-weight-regular"
       >
         <div class="col-12 text-center">
           <a href="tel:+79283332390" class="link">+7(928)333-23-90</a>

@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper q-py-lg">
-    <h1 class="text-h6 q-my-none second-font">РЕКВИЗИТЫ</h1>
+    <h1 class="text-h6 q-my-none ">РЕКВИЗИТЫ</h1>
 
     <div class="row q-py-lg">
       <div class="col">
@@ -13,7 +13,7 @@
               bordered
               :rows-per-page-options="[0]"
               hide-bottom
-              class="second-font text-body2"
+              class=" text-body2"
             />
 
             <a

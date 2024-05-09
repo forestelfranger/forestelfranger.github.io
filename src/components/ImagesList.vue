@@ -22,7 +22,7 @@
           color="grey"
           no-caps
           flat
-          class="second-font"
+          class=""
           @click="onCountUp"
         />
       </div>

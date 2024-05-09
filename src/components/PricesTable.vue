@@ -4,7 +4,7 @@
     :columns="columns"
     row-key="name"
     class="bg-primary text-grey q-my-lg"
-    table-header-class="second-font"
+    table-header-class=""
     color="amber"
     flat
     :rows-per-page-options="[0]"

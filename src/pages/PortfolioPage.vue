@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper q-py-lg">
-    <h1 class="text-h6 q-my-none second-font">ПОРТФОЛИО</h1>
+    <h1 class="text-h6 q-my-none ">ПОРТФОЛИО</h1>
 
     <images-list :images="images" :total-count="totalCount" class="q-py-lg" />
   </div>
