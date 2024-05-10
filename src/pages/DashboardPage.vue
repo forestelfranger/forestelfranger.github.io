@@ -12,9 +12,7 @@
     >
       <q-img
         class="img"
-        :src="
-          require(`@/assets/pages/${service.tag}/facade-1.jpg`)
-        "
+        :src="require(`@/assets/pages/${service.tag}/facade-1.jpg`)"
         :alt="service.name"
       >
         <div
@@ -62,6 +60,7 @@ export default {
   }
 }
 .img {
+  border: 4px solid $primary;
   height: calc((100vh - 93px) / 2) !important;
 
   body.screen--xs & {
