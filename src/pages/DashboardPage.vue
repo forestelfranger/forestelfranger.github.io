@@ -13,7 +13,7 @@
       <q-img
         class="img"
         :src="
-          require(`@/assets/pages/${service.tag}/${service.tag}-facade1.jpg`)
+          require(`@/assets/pages/${service.tag}/facade-1.jpg`)
         "
         :alt="service.name"
       >
